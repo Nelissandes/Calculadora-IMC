@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2? family= Prompt:wght@300 & display=swap');
+
+body, html{
+    background: #A3AB78;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #10454F;
+    font-family: 'Prompt', sem serifa;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+input, button{
+    cursor: pointer;
+    border-style: none;
+}
+
+label{
+    display: block;
+    margin: 4px 0px 0px 8px;
+    padding: 4px;
+    font-weight: bolder;
+    color: #10454F;
+    font-family: 'Prompt', sem serifa;
+    font-size: 20px;
+}
+input, button{
+    display: block;
+    margin: auto;
+    width: 98%;
+    box-sizing: border-box;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+input:focus{
+    background-color: #506266;
+    color: white;
+    border-style: none;
+}
+
+input::placeholder{
+    color: #10454F;
+}
+
+input:focus::placeholder{
+    color: white;
+}
+
+button{
+    margin-top: 6px;
+    background-color: #10454F;
+    color: white;
+    border-style: none;
+}
+
+#resultado{
+    text-align: center;
+    color: #10454F;
+    margin: 30px auto 0 auto;
+    font-family: 'Prompt', sem serifa;
+    background-color: #BDE038;
+    font-size: 20px;
+    max-width: 400px;
+    border-radius: 8px;
+
+}
